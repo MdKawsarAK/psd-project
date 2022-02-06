@@ -1,0 +1,142 @@
+header{
+	background-color: #121B2A;
+	padding: 10px 0px;
+	
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	float: left;
+} 
+.logo img{ 
+	width: 100%;
+} 
+.menu{
+	width: 70%;
+	float: right;
+	color:#FCFFFF;
+
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style:none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 5px 15px;
+	display:inline-block;
+	color: white;
+	transition: .5s;
+
+}
+.menu ul li a:hover{
+	color: #1075AB;
+}
+/*banner start*/
+.banner{
+	background-image: url(../images/bootstrap4.jpg);
+	background-repeat: no-repeat;
+	background-position:top center;
+	background-size: cover;
+}
+.banner-contain{
+	margin-top: 200px;
+	margin-bottom:50px; 
+	width: 45%;
+
+}
+.banner-contain p:first-child{
+	color: white;
+	font-size:28px;
+	font-family: sans-serif;
+
+}
+.banner-contain h1{
+	color:#0076B4;
+	font-family: sans-serif;
+	font-size: 30px;
+
+	 
+}
+.banner-contain p:nth-last-child(2) {
+	color: white;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.banner-contain button {
+	border: none;
+	padding: 5px 20px;
+	font-size: 20px;
+	margin-top: 20px;
+	color:#595959;
+	background-color:#FFFFFF;
+}
+..banner-contain button img{
+	margin-top: 5px;
+	padding: 5px 5px;
+	color: red;
+}
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121B2C;
+	padding: 50px 0;
+}
+.single{
+
+	width: 25%;
+	padding: 10px 20px;
+	float: left;
+	border-right: 1px solid white;
+}
+.single:last-child{
+	border-right: 0; 
+}
+.tittle{
+	overflow: hidden;
+}
+.icon{
+	width: 25%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+ .icon-text{
+ 	 width: 70%;
+    float: left;
+    font-family: sans-serif;
+    margin-top: 5px;
+
+ }
+.icon-text h1{
+	color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.icon-text h2{
+	color: #0075B7;
+	text-transform: capitalize; 
+
+}
+.text{
+	color: white;
+	font-family: sans-serif;
+}
+.text p {
+	color: white;
+	line-height: 1.5;
+	font-size: 16px;
+
+}
+
+/*service end*/
